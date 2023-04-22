@@ -1,0 +1,47 @@
+.profile {
+    display: flex;
+    &__info {
+        margin-right: 20px;
+        width: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-bottom: 20px;
+        &_avatar {
+            max-width: 250px;
+        }
+        &_editing {
+            font-size: 20px;
+            padding: 10px 0;
+            width: 100%;
+            text-align: left;
+            &:hover {
+                background-color: #a9a9a9;
+            }
+        }
+        &_fullname {
+            font-size: 30px;
+        }
+        &_aboutMe,
+        &_lookingForAJob,
+        &_lookingForAJobDescription {
+            font-size: 17px;
+        }
+        &_contacts {
+            margin-top: 10px;
+            background-color: #a9a9a9;
+            &_item {
+                font-size: 20px;
+                white-space: pre-wrap;
+                &_link {
+                    color: #141b7d;
+                }
+            }
+        }
+    }
+    &__posts {
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+}

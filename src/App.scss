@@ -1,0 +1,89 @@
+.appWrapper {
+  position: relative;
+  display: block;
+  background-color: #d3d3d3;
+  min-height: 100vh;
+  &__errors {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    .error {
+      background-color: #ececec;
+      border: 4px solid black;
+      border-radius: 15px;
+      padding: 10px;
+      margin: 5px 0;
+    }
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 0 15px;
+}
+
+html {
+  // scrollbar-width: none;
+  overflow: overlay;
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    &:hover {
+      background: rgba(#151719, 0.3);
+    }
+
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+//============= default: ===============
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  width: max-content;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+.error {
+  font-size: 20px;
+  color: red;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+//============= default. ===============

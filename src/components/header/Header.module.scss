@@ -1,0 +1,33 @@
+.header {
+    background-color: #a9a9a9;
+    padding: 10px 0;
+    &_container {
+        display: flex;
+        margin: auto inherit;
+        justify-content: space-between;
+    }
+    &_logo {
+        margin: auto 0;
+        font-size: 45px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        cursor: default;
+    }
+    &_interface {
+        display: flex;
+        margin: auto 0;
+        &_login {
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        &_iconsList {
+            display: flex;
+            &_icon {
+                max-width: 30px;
+                max-height: min-content;
+                padding: 0 7px;
+                transition: 1.2s ease;
+                vertical-align: middle;
+            }
+        }
+    }
+}

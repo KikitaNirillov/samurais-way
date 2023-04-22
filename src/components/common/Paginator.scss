@@ -1,0 +1,16 @@
+.pageButtons {
+    background-color:  #DBD7D2;
+    &_currentButton {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    &_prevnext {
+        border-style: solid;
+        border-width: 1px;
+        background-color: #9C9C9C ;
+        &:disabled {
+            color: dimgrey;
+            background-color: white;
+        }
+    }
+}

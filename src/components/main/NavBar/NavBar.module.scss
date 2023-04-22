@@ -1,0 +1,17 @@
+.navBar {
+    white-space: nowrap;
+    margin-right: 15px;
+    &__list {
+        &_item {
+            margin-bottom: 5px;
+            :hover {
+                background-color: #a9a9a9;
+            }
+            &_link {
+                width: 100%;
+                text-align: left;
+                padding: 10px;
+            }
+        }
+    }
+}

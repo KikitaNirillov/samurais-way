@@ -1,0 +1,35 @@
+.navLink {
+    padding: 10px;
+    background-color: #d3d3d3;
+    &:hover {
+        background-color: #a9a9a9;
+    }
+}
+.form {
+    max-width: max-content;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    h3 {
+        margin: 25px 0 0;
+    }
+    &_submitBtn {
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    &_field {
+        &_title {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+        
+        &_input {
+            &[type='checkbox'] {
+                max-width: max-content;
+            }
+        }
+        display: flex;
+        flex-direction: column;
+    }
+}

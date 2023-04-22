@@ -1,0 +1,16 @@
+.usersPage {
+    &_list {
+        &_item {
+            &_avatar {
+                width: 150px;
+                height: 150px;
+            }
+            &_btn {
+                &:disabled{
+                    color:aqua;
+                    background-color:cadetblue;
+                }
+            }
+        }
+    }
+}

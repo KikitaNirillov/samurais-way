@@ -1,0 +1,27 @@
+.dialogs {
+    display: flex;
+    height: 100%;
+    &__usersList {
+        padding-right: 15px;
+        border-right: 2px solid #c2c2c2;
+        &_item {
+            text-align: left;
+            padding: 10px;
+            margin-bottom: 5px;
+            &:hover {
+                background-color: #dbdbdb;
+            }
+        }
+    }
+    &__messages {
+        padding: 0 15px;
+        &_list {
+            &_item {
+                width: 100%;
+                text-align: left;
+                padding: 10px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
